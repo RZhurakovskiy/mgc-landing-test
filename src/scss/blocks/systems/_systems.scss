@@ -1,0 +1,122 @@
+.mgc-systems {
+
+  background-color: #2c2c2c;
+}
+
+.systems {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  padding-top: 50px;
+  padding-left: 40px;
+}
+
+.systems-block {
+  background-color: #2c2c2c;
+}
+
+
+.next-section {
+  height: 100vh;
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.systems-block {
+  &__title {
+    font-weight: 700;
+    font-size: 38px;
+    text-transform: uppercase;
+    color: #fff;
+    position: relative;
+    width: 600px;
+  }
+  &__title::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 1px;
+    width: 20%;
+    background-color: #fe0000;
+  }
+}
+.systems-content {
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  gap: 10px 30px;
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__block-list {
+    display: flex;
+    column-gap: 20px;
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  &__block-img {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+.systems-group {
+  &__title {
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #e8e8e8;
+    padding-bottom: 20px;
+  }
+  &__lists {
+    padding-left: 15px;
+    max-width: 350px;
+  }
+  &__list {
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 1.6rem;
+  }
+}
+
+
+
+/* No styles code below. Only in modules */
+
+.section-3 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(0, 132, 194);
+}
+.section-4 {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(194, 0, 81);
+}
+.section-5 {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(194, 0, 0);
+}
+.section-6 {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(0, 180, 0);
+}
